@@ -2,11 +2,14 @@ package main
 
 import (
 	"fmt"
-	"math"
+	"github.com/mattmc96/go_crash_course/03_packages/strutil"
+	. "math"
 )
 
 func main() {
-	fmt.Println(math.Floor(2.7))
-	fmt.Println(math.Ceil(2.7))
-	fmt.Println(math.Sqrt(16))
+	fmt.Println(Floor(2.7))
+	fmt.Println(Ceil(2.7))
+	fmt.Println(Sqrt(16))
+	fmt.Println(strutil.Reverse("What the hell man"))
+
 }

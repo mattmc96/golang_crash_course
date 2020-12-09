@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b27935c-e80f-4cee-a134-9b89ae7bbb55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03_packages/strutil/reverse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_functions/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_arrays_slices/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_conditionals/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_loops/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03_packages/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/03_packages/main.go" afterDir="false" />
     </list>
@@ -34,12 +37,15 @@
     </layout>
   </component>
   <component name="ProjectId" id="1lOyVuLagK974Io3qpQVxQXgGuG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -58,13 +64,40 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build github.com/mattmc96/go_crash_course/02_vars" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/mattmc96/go_crash_course/07_loops">
+    <configuration name="go build github.com/mattmc96/go_crash_course/05_arrays_slices" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_crash_course" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/02_vars/main.go" />
-      <package value="github.com/mattmc96/go_crash_course/02_vars" />
+      <filePath value="$PROJECT_DIR$/05_arrays_slices/main.go" />
+      <package value="github.com/mattmc96/go_crash_course/05_arrays_slices" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/mattmc96/go_crash_course/06_conditionals" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_crash_course" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/06_conditionals/main.go" />
+      <package value="github.com/mattmc96/go_crash_course/06_conditionals" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/mattmc96/go_crash_course/07_loops" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_crash_course" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/07_loops/main.go" />
+      <package value="github.com/mattmc96/go_crash_course/07_loops" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_crash_course" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/04_functions/main.go" />
+      <package value="github.com/mattmc96/go_crash_course" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -79,8 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/mattmc96/go_crash_course/07_loops" />
+        <item itemvalue="Go Build.go build github.com/mattmc96/go_crash_course/06_conditionals" />
+        <item itemvalue="Go Build.go build github.com/mattmc96/go_crash_course/05_arrays_slices" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build github.com/mattmc96/go_crash_course/02_vars" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +129,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607482458627</updated>
     </task>
+    <task id="LOCAL-00001" summary="creating reverse string package">
+      <created>1607487253234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607487253234</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,5 +152,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="creating reverse string package" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating reverse string package" />
   </component>
 </project>

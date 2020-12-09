@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b27935c-e80f-4cee-a134-9b89ae7bbb55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09_range/main.go" afterDir="false" />
+    <list default="true" id="0b27935c-e80f-4cee-a134-9b89ae7bbb55" name="Default Changelist" comment="range and index">
+      <change afterPath="$PROJECT_DIR$/10_pointers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_closures/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_range/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_range/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/mattmc96/go_crash_course/08_maps">
-    <configuration name="go build github.com/mattmc96/go_crash_course/05_arrays_slices" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_crash_course" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/05_arrays_slices/main.go" />
-      <package value="github.com/mattmc96/go_crash_course/05_arrays_slices" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build github.com/mattmc96/go_crash_course/06_conditionals" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_crash_course" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,18 +94,27 @@
       <module name="go_crash_course" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/04_functions/main.go" />
+      <filePath value="$PROJECT_DIR$/10_pointers/main.go" />
+      <package value="github.com/mattmc96/go_crash_course" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_crash_course" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/09_range/main.go" />
       <package value="github.com/mattmc96/go_crash_course" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build github.com/mattmc96/go_crash_course/08_maps" />
         <item itemvalue="Go Build.go build github.com/mattmc96/go_crash_course/07_loops" />
         <item itemvalue="Go Build.go build github.com/mattmc96/go_crash_course/06_conditionals" />
-        <item itemvalue="Go Build.go build github.com/mattmc96/go_crash_course/05_arrays_slices" />
-        <item itemvalue="Go Build.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607493016834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="range and index">
+      <created>1607494094545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607494094545</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +177,7 @@
     <MESSAGE value="creating reverse string package" />
     <MESSAGE value="maps dir" />
     <MESSAGE value="maps &amp; range" />
-    <option name="LAST_COMMIT_MESSAGE" value="maps &amp; range" />
+    <MESSAGE value="range and index" />
+    <option name="LAST_COMMIT_MESSAGE" value="range and index" />
   </component>
 </project>

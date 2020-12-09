@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b27935c-e80f-4cee-a134-9b89ae7bbb55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/08_maps/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_range/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607492505965</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="maps &amp; range">
+      <created>1607493016834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607493016834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="creating reverse string package" />
     <MESSAGE value="maps dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="maps dir" />
+    <MESSAGE value="maps &amp; range" />
+    <option name="LAST_COMMIT_MESSAGE" value="maps &amp; range" />
   </component>
 </project>
